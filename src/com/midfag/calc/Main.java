@@ -67,7 +67,7 @@ public class Main {
 	                    	 		
 	                    	 	
 	                    	 	//заменяем символы математических операторов, что бы в дальнейшем разбить оставшиеся числа на массив
-	                    	 	String 	array_string=parse_string.replace("[/-]", "-").replace("[*-]", "-").replace("-", "#-").replace("+", "#").replaceAll("[/*]", "");
+	                    	 	String 	array_string=parse_string.replace("[/-]", "-").replace("[*-]", "-").replace("-", "#-").replace("+", "#").replaceAll("[/*]", "#");
 	                    	 	
 	                    	 	//System.out.println("!!! "+array_string);
 	                    	 	
